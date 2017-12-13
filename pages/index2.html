@@ -1,0 +1,87 @@
+<link rel="shortcut icon" href="https://cdn.vectorstock.com/i/composite/88,97/ace-of-hearts-vector-1188897.jpg">
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<title>Elena...</title>
+
+
+<body>
+<div class="container">
+  <div class="card">
+    <div class="front">White rabbit</div>
+    <div class="back">Do you like choco...?</div>
+    <img src="http://static.memrise.com/uploads/course_photos/8875791000150814162900.png" alt="">
+  </div>
+</div>
+	
+</body>
+
+<style>
+body {
+  color: black;
+  font-size: 1.1em;
+  background-color: black;
+font-family: 'Rock Salt', cursive;
+}
+
+
+.container {
+  margin: 15% auto;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #eee;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+.card {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  width: 300px;
+  height: 50%;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.container:hover .card {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.front,.back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  color: white;
+  line-height: 500px;
+  font-weight: bold;
+}
+
+.front {
+ background-color: white;
+ z-index: -2;
+  color: black;
+
+}
+
+
+img{
+	width: 100%;
+	height: 197%;
+	z-index: 1;
+
+
+}
+
+.back {
+  z-index: 1;
+  background-color: black;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+	
+</style>
