@@ -22,7 +22,7 @@ var page=0;
     "",
     "",
     "",
-    "Day 1,  Elena... ",
+    "Today, one year ago... ",
     "Do you like riddles? ",
     "Everything starts with a tic ",
     "When the tic is over? ",
